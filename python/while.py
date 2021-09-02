@@ -26,7 +26,6 @@ while(end != 'n'):
         number = int(input())
         tentative = tentative + 1
         if (number < random):
-            # tentative = tentative + 1
             restant = max_tentative - tentative
             print("Plus Grand !")
             print("Tentative numero", tentative, "Il vous en reste ", restant)
@@ -35,9 +34,6 @@ while(end != 'n'):
             restant = max_tentative - tentative
             print("Plus Petit !")
             print("Tentative numero", tentative, "Il vous en reste ", restant)
-
-
-
     print("Partie Fini")
     time.sleep(1)
     print("Voulez-Vous re lancer une partie ? (Y/n)")
