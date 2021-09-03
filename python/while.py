@@ -30,7 +30,6 @@ while(end != 'n'):
             print("Plus Grand !")
             print("Tentative numero", tentative, "Il vous en reste ", restant)
         if (number > random):
-            # tentative = tentative + 1
             restant = max_tentative - tentative
             print("Plus Petit !")
             print("Tentative numero", tentative, "Il vous en reste ", restant)
